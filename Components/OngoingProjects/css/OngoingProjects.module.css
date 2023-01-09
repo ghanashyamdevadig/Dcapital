@@ -1,0 +1,38 @@
+.ongoing_projects{
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    margin: auto;
+    padding-top: 60px;
+    padding-bottom: 71px;
+}
+.title{
+    text-align: center;
+
+}
+.tagline{
+    text-align: center;
+    padding-top: 22px;
+}
+.slider{
+    margin-top: 66px;
+    position: relative;
+    z-index: 1;
+}
+
+.carousel > .rec .rec-arrow-left{
+    position: absolute;
+    top: 21%;
+    left: -5px;
+    z-index: 10;
+    background: #E3E3E3;
+    transform: translateY(-21%);
+}
+
+.carousel > .rec .rec-arrow-right{
+    position: absolute;
+    top: 21%;
+    right: -5px;
+    z-index: 10;
+    background: #E3E3E3;
+    transform: translateY(-21%);
+}

@@ -1,0 +1,94 @@
+.project_card {
+  width: 313px;
+  color: #212325;
+}
+.image {
+  height: 198px;
+  position: relative;
+}
+.content {
+  padding-left: 20px;
+}
+.tag img {
+  position: absolute;
+  left: 0%;
+  top: 9.5%;
+}
+.like img {
+  box-sizing: border-box;
+  position: absolute;
+  left: 85.62%;
+  top: 11.18%;
+}
+.title {
+  margin-top: 14.5px;
+  font-size: 20px;
+  line-height: 21px;
+  font-weight: 500;
+}
+
+.location {
+  margin-top: 5px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.rooms_detail {
+  display: flex;
+  width: 179.56px;
+  flex-direction: row;
+  margin-top: 13px;
+  align-items: center;
+}
+.rooms {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 10px;
+}
+.vertical_devider {
+  height: 21px;
+  width: 0px;
+  border: 1px solid rgba(0, 0, 0, 0.13);
+  margin-left: 13px;
+  margin-right: 13px;
+}
+.rooms div {
+  display: flex;
+  margin-top: 12px;
+  align-items: center;
+}
+.rooms div img {
+  width: 20px;
+  margin-right: 7px;
+}
+.rooms div p {
+  font-weight: 500;
+  font-size: 14px;
+}
+.rupee_symbol {
+  margin-right: 6px;
+}
+.price {
+  display: flex;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  margin-top: 16.5px;
+}
+.contact_btn {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 9px;
+  color: #ffffff;
+  background: #212325;
+  padding: 13px 24px;
+  border: 0.817073px solid #212325;
+  border-radius: 4px;
+  margin-top: 19px;
+}
+.horizontal_devider{
+  padding: 0 10px;
+}

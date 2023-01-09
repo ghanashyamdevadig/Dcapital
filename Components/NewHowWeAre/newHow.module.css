@@ -1,0 +1,784 @@
+.backgroundImg{
+    background-image: url("../../assets/png/Background.png");
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.partition{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+.leftCntr{
+    min-width: 50rem;
+    min-height: 50rem;
+}
+
+.left{
+    min-width: 40rem;
+    min-height: 40rem;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+}
+
+.RightCntr{
+   min-width: 50rem;
+    min-height: 63rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.Right{
+    border: 1px solid lightgray;
+    background-color: #fff;
+    width: 35rem ;
+    min-height: 50rem;
+    display: flex;
+    border-radius: 0.8em;
+    flex-direction: column;
+}
+
+.IllustrationText{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8em;
+    font-weight: 600;
+    /* line-height: 2.1em; */
+    letter-spacing: 0em;
+    text-align: left;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0.2em;
+}
+
+.IllustrationTextSmall{
+    font-family: 'Roboto', sans-serif;
+font-size: 1.2em;
+font-weight: 600;
+/* line-height: 1.8em; */
+letter-spacing: 0em;
+text-align: left;
+color:#6E9500;
+padding: 0.2em;
+}
+
+.IllustrationTextSmall1{
+    display: none;
+}
+
+.howWeAre1{
+    display: none;
+}
+
+.points{
+    display: flex;
+    margin: 3em;
+}
+
+.howWeAre{
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
+
+.textHeader{
+    margin-left: 1em;
+}
+
+.textsmall{
+    margin-left: 1em;
+}
+
+.arrowIcon{
+    margin-top: 1em;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 275px) and (max-width: 300px){
+
+    .backgroundImg{
+        min-height: 100vh;
+   
+    }
+    
+    .IllustrationTextSmall{
+      display: none;
+    }
+
+    .IllustrationTextSmall1{
+    font-size: 0.7em;
+    margin: 0;
+    margin-top: 0.5em;
+    display: flex;
+    text-align: left;
+color:#6E9500;
+    }
+    
+    .partition{
+        width: 100%;
+     flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+   
+    
+   
+    
+    .points{
+        display: flex;
+        margin-left: 0.3em;
+        margin-right: 0em;
+        margin-top: 2em;
+        justify-content: center;
+    }
+    
+    .howWeAre{
+      display: none;
+    }
+
+    .howWeAre1{
+        font-size: 0.6em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 2em;
+    }
+    
+    .textHeader{
+        margin-left: 1em;
+        font-size: 0.9em;
+    }
+    
+    .textsmall{
+        margin-left: 1em;
+        font-size: 0.7em;
+    }
+    
+    .arrowIcon{
+        margin-top: 1em;
+        cursor: pointer;
+    }
+    
+
+  
+}
+
+@media only screen and (min-width: 301px) and (max-width: 320px){
+
+    .backgroundImg{
+        min-height: 100vh;
+   
+    }
+    
+    .IllustrationTextSmall{
+      display: none;
+    }
+
+    .IllustrationTextSmall1{
+    font-size: 0.7em;
+    margin: 0;
+    margin-top: 0.5em;
+    display: flex;
+    text-align: left;
+color:#6E9500;
+    }
+    
+    .partition{
+        width: 100%;
+     flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+   
+    
+   
+    
+    .points{
+        display: flex;
+        margin-left: 0.3em;
+        margin-right: 0em;
+        margin-top: 2em;
+        justify-content: center;
+    }
+    
+    .howWeAre{
+      display: none;
+    }
+
+    .howWeAre1{
+        font-size: 0.6em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 2em;
+    }
+    
+    .textHeader{
+        margin-left: 1em;
+        font-size: 0.9em;
+    }
+    
+    .textsmall{
+        margin-left: 1em;
+        font-size: 0.7em;
+    }
+    
+    .arrowIcon{
+        margin-top: 1em;
+        cursor: pointer;
+    }
+    
+
+
+}
+
+@media only screen and (min-width: 321px) and (max-width: 354px){
+    .backgroundImg{
+        min-height: 100vh;
+      
+    }
+    
+    .IllustrationTextSmall{
+      display: none;
+    }
+
+    .IllustrationTextSmall1{
+    font-size: 0.7em;
+    margin: 0;
+    margin-top: 0.5em;
+    display: flex;
+    text-align: left;
+color:#6E9500;
+    }
+    
+    .partition{
+        width: 100%;
+     flex-direction: column;
+        align-items: center;
+    }
+    
+   
+    
+   
+    
+    .points{
+        display: flex;
+        margin-left: 0.3em;
+        margin-right: 0em;
+        margin-top: 2em;
+        justify-content: center;
+    }
+    
+    .howWeAre{
+      display: none;
+    }
+
+    .howWeAre1{
+        font-size: 0.6em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 2em;
+    }
+    
+    .textHeader{
+        margin-left: 1em;
+        font-size: 0.9em;
+    }
+    
+    .textsmall{
+        margin-left: 1em;
+        font-size: 0.7em;
+    }
+    
+    .arrowIcon{
+        margin-top: 1em;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (min-width: 355px) and (max-width: 365px){
+ 
+    .backgroundImg{
+
+        min-height: 100vh;
+
+
+    }
+
+    .IllustrationText{
+    font-size: 1em;
+    margin-bottom: -0.5em;
+    }
+    
+    .img{
+        width: 350px;
+        height: 200px;
+        display: flex;
+        justify-content:flex-start ;
+    }
+    
+    .IllustrationTextSmall{
+      display: none;
+    }
+
+    .IllustrationTextSmall1{
+    font-size: 1em;
+    margin: 0;
+    margin-top: 0.5em;
+    display: flex;
+    text-align: left;
+color:#6E9500;
+    }
+    
+    .partition{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .right{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 4em;
+    }
+    
+    .rightCntr{
+        border: 1px solid lightgrey;
+        width :35rem;
+        height:  60rem;
+        justify-content: center;
+        background-color: #FFFFFF;
+        border-radius: 0.5em;
+    }
+    
+    .points{
+        display: flex;
+        margin-left: 1em;
+        margin-right: 1em;
+        margin-top: 2em;
+        justify-content: center;
+    }
+    
+    .howWeAre{
+      display: none;
+    }
+
+    .howWeAre1{
+        font-size: 0.9em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 2em;
+    }
+    
+    .textHeader{
+        margin-left: 1em;
+    }
+    
+    .textsmall{
+        margin-left: 1em;
+    }
+    
+    .arrowIcon{
+        margin-top: 1em;
+        cursor: pointer;
+    }
+    
+    .adjust{
+    margin-top: 2em;
+    }
+
+    .TextBoxText{
+        margin: 10px;
+    }
+}
+
+@media only screen and (min-width: 366px) and (max-width: 375px){
+    .backgroundImg{
+    
+        min-height: 100vh;
+
+
+    }
+    
+    .IllustrationTextSmall{
+      display: none;
+    }
+
+    .IllustrationTextSmall1{
+    font-size: 0.7em;
+    margin: 0;
+    margin-top: 0.5em;
+    display: flex;
+    text-align: left;
+color:#6E9500;
+    }
+    
+    .partition{
+        width: 100%;
+     flex-direction: column;
+        align-items: center;
+    }
+    
+   
+    
+   
+    
+    .points{
+        display: flex;
+        margin-left: 0.3em;
+        margin-right: 0em;
+        margin-top: 2em;
+        justify-content: center;
+    }
+    
+    .howWeAre{
+      display: none;
+    }
+
+    .howWeAre1{
+        font-size: 0.6em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 2em;
+    }
+    
+    .textHeader{
+        margin-left: 1em;
+        font-size: 0.9em;
+    }
+    
+    .textsmall{
+        margin-left: 1em;
+        font-size: 0.7em;
+    }
+    
+    .arrowIcon{
+        margin-top: 1em;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (min-width: 376px) and (max-width: 395px){
+    .backgroundImg{
+       
+        min-height: 100vh;
+
+    }
+    
+    .IllustrationText{
+    font-size: 1em;
+    margin-bottom: -0.5em;
+    }
+    
+    .img{
+        width: 350px;
+        height: 200px;
+        display: flex;
+        justify-content:flex-start ;
+    }
+    
+    .IllustrationTextSmall{
+      display: none;
+    }
+
+    .IllustrationTextSmall1{
+    font-size: 1em;
+    margin: 0;
+    margin-top: 0.5em;
+    display: flex;
+    text-align: left;
+color:#6E9500;
+    }
+    
+    .partition{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .right{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 4em;
+    }
+    
+    .rightCntr{
+        border: 1px solid lightgrey;
+        width :35rem;
+        height:  60rem;
+        justify-content: center;
+        background-color: #FFFFFF;
+        border-radius: 0.5em;
+    }
+    
+    .points{
+        display: flex;
+        margin-left: 1em;
+        margin-right: 1em;
+        margin-top: 2em;
+        justify-content: center;
+    }
+    
+    .howWeAre{
+      display: none;
+    }
+
+    .howWeAre1{
+        font-size: 0.9em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 2em;
+    }
+    
+    .textHeader{
+        margin-left: 1em;
+    }
+    
+    .textsmall{
+        margin-left: 1em;
+    }
+    
+    .arrowIcon{
+        margin-top: 1em;
+        cursor: pointer;
+    }
+    
+    .adjust{
+    margin-top: 2em;
+    }
+
+    .TextBoxText{
+        margin: 10px;
+    }
+}
+
+
+@media only screen and (min-width: 396px) and (max-width: 420px){
+    .backgroundImg{
+  
+        min-height: 100vh;
+
+    }
+    
+    .IllustrationTextSmall{
+      display: none;
+    }
+
+    .IllustrationTextSmall1{
+    font-size: 0.7em;
+    margin: 0;
+    margin-top: 0.5em;
+    display: flex;
+    text-align: left;
+color:#6E9500;
+    }
+    
+    .partition{
+        width: 100%;
+     flex-direction: column;
+        align-items: center;
+    }
+    
+   
+    
+   
+    
+    .points{
+        display: flex;
+        margin-left: 0.3em;
+        margin-right: 0em;
+        margin-top: 2em;
+        justify-content: center;
+    }
+    
+    .howWeAre{
+      display: none;
+    }
+
+    .howWeAre1{
+        font-size: 0.6em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 2em;
+    }
+    
+    .textHeader{
+        margin-left: 1em;
+        font-size: 0.9em;
+    }
+    
+    .textsmall{
+        margin-left: 1em;
+        font-size: 0.7em;
+    }
+    
+    .arrowIcon{
+        margin-top: 1em;
+        cursor: pointer;
+    }
+}
+
+
+
+@media only screen and (min-width: 421px) and (max-width: 500px){
+    .backgroundImg{
+    
+        min-height: 100vh;
+ 
+    }
+    
+    .IllustrationTextSmall{
+      display: none;
+    }
+
+    .IllustrationTextSmall1{
+    font-size: 0.7em;
+    margin: 0;
+    margin-top: 0.5em;
+    display: flex;
+    text-align: left;
+color:#6E9500;
+    }
+    
+    .partition{
+        width: 100%;
+     flex-direction: column;
+        align-items: center;
+    }
+    
+   
+    
+   
+    
+    .points{
+        display: flex;
+        margin-left: 0.3em;
+        margin-right: 0em;
+        margin-top: 2em;
+        justify-content: center;
+    }
+    
+    .howWeAre{
+      display: none;
+    }
+
+    .howWeAre1{
+        font-size: 0.6em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 2em;
+    }
+    
+    .textHeader{
+        margin-left: 1em;
+        font-size: 0.9em;
+    }
+    
+    .textsmall{
+        margin-left: 1em;
+        font-size: 0.7em;
+    }
+    
+    .arrowIcon{
+        margin-top: 1em;
+        cursor: pointer;
+    }
+}
+
+
+
+
+
+
+@media only screen and (min-width: 500px) and (max-width: 550px){
+    .backgroundImg{
+        min-height: 150vh;
+    }
+    
+    .IllustrationTextSmall{
+      display: none;
+    }
+
+    .IllustrationTextSmall1{
+    font-size: 0.7em;
+    margin: 0;
+    margin-top: 0.5em;
+    display: flex;
+    text-align: left;
+color:#6E9500;
+    }
+    
+    .partition{
+        width: 100%;
+     flex-direction: column;
+        align-items: center;
+    }
+    
+   
+    
+   
+    
+    .points{
+        display: flex;
+        margin-left: 0.3em;
+        margin-right: 0em;
+        margin-top: 2em;
+        justify-content: center;
+    }
+    
+    .howWeAre{
+      display: none;
+    }
+
+    .howWeAre1{
+        font-size: 0.6em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 2em;
+    }
+    
+    .textHeader{
+        margin-left: 1em;
+        font-size: 0.9em;
+    }
+    
+    .textsmall{
+        margin-left: 1em;
+        font-size: 0.7em;
+    }
+    
+    .arrowIcon{
+        margin-top: 1em;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (min-width: 550px) and (max-width: 1200px){
+    .backgroundImg{
+        display: none;
+}
+}

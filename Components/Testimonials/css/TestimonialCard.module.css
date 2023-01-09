@@ -1,0 +1,116 @@
+.card_container {
+  background: #fff;
+  width: 338px;
+  height: 391px;
+  border-radius: 17px;
+  padding-top: 14.8px;
+  position: relative;
+  margin-top: 66px;
+}
+.video_conatiner {
+  width: 312px;
+  height: 171px;
+  margin: auto;
+  position: relative;
+}
+.circle_big {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: red;
+  border-radius: 50%;
+  background: #ffffff;
+  opacity: 0.26;
+}
+.circle_meadium {
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: red;
+  border-radius: 50%;
+  background: #ffffff;
+  opacity: 0.6;
+}
+.circle_small {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: red;
+  border-radius: 50%;
+  background: #ffffff;
+  opacity: 0.6;
+}
+
+.play_pause_btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: none;
+  background: transparent;
+}
+.client_quote {
+  width: 312px;
+  margin: auto;
+  position: relative;
+}
+.quote_icon {
+  position: absolute;
+  top: 14.1px;
+  left: 0;
+}
+.phase {
+  padding-top: 42px;
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.horizontal_devider {
+  width: 312px;
+  margin: auto;
+  margin-top: 10px;
+  border: 0.55163px solid rgba(0, 0, 0, 0.1);
+}
+.client_details {
+  width: 312px;
+  margin: auto;
+  text-align: center;
+}
+.client_name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 14px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.8);
+  margin-top: 10px;
+}
+.client_profession {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  color: rgba(84, 97, 117, 0.8);
+  margin-top: 8px;
+}
+.client_image {
+  position:absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 5.8px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}

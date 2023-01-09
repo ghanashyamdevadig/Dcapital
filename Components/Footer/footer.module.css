@@ -1,0 +1,638 @@
+.footerMainDiv{
+    width: 100%;
+    height: 50vh;
+    background-color: #212325;
+}
+
+.footerDiv{
+    display: grid;
+    grid-template-columns: 3rem 6fr 2fr 4fr 3rem ;
+}
+
+.firstDiv{
+    grid-column: 2/3;
+    margin: 2em;
+}
+
+.secondDiv{
+    grid-column: 3/4;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    margin: 3em;
+}
+
+.thirdDiv{
+    grid-column: 4/5;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    margin: 3em;
+}
+
+.logo{
+    padding: 1em;
+}
+
+.discription{
+    line-height: 1.5em;
+    font-family: "Roboto", sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 1em;
+}
+
+.socialMedia{
+    padding: 1em;
+    cursor: pointer;
+}
+
+.quickLinks{
+    color :#FFFFFF;
+    line-height: 1.5em;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 2em;
+}
+
+.links{
+    display: flex;
+  margin-bottom: 1em;
+}
+
+.links a{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8em;
+    text-decoration: none;
+}
+
+.contactUs{
+    color :#FFFFFF;
+    line-height: 1.5em;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 2em;
+}
+
+.link{
+    display: flex;
+    padding: 0.2em;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.app{
+    color :#FFFFFF;
+    line-height: 1.5em;
+    font-family: "Roboto", sans-serif;
+    margin: 2em 0 2em 0;
+}
+
+.apps{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2em;
+    cursor: pointer;
+}
+
+.footerEnd{
+    width: 100%;
+    height:8vh;
+    background-color: #212325;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+}
+
+.footerEndText{
+    display: flex;
+    justify-content: center;
+    align-items: center !important;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8em;
+}
+
+.footerDiv1{
+    display: none;
+}
+
+@media only screen and (min-width: 400px) and (max-width: 768px){
+
+    .footerMainDiv{
+        width: 100%;
+        height: 55vh;
+        background-color: #212325;
+    }
+
+.footerDiv{
+    display: none;
+}
+
+.footerDiv1{
+    width: 90%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1em;
+    /* background-color: red; */
+}
+
+.quickLinks1{
+    color :#FFFFFF;
+    line-height: 1.5em;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 0.5em;
+}
+
+.links1{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8em;
+    padding: 0.2em;
+}
+
+.logo1{
+    margin-top: 3em;
+}
+
+.contactUs1{
+    color :#FFFFFF;
+    line-height: 1.5em;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.link1{
+    display: flex;
+    padding: 0.2em;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8em;
+}
+
+.socialMedia1{
+    display: flex;
+    justify-content: center;
+}
+
+
+.footerEnd{
+ display: none;
+}
+
+.footerEndText{
+    display: none;
+    
+}
+
+.footerEndText1{
+    display: flex;
+    justify-content: center;
+    align-items: center !important;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8em;
+}
+
+.hr{
+    display: none;
+}
+
+}
+
+@media only screen and (min-width: 370px) and (max-width: 375px){
+
+    .footerMainDiv{
+        width: 100%;
+        height: 80vh;
+        background-color: #212325;
+    }
+
+.footerDiv{
+    display: none;
+}
+
+.footerDiv1{
+    width: 90%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1em;
+    /* background-color: red; */
+}
+
+.quickLinks1{
+    color :#FFFFFF;
+    line-height: 1.5em;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 0.5em;
+}
+
+.links1{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8em;
+    padding: 0.2em;
+}
+
+.logo1{
+    margin-top: 3em;
+}
+
+.contactUs1{
+    color :#FFFFFF;
+    line-height: 1.5em;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.link1{
+    display: flex;
+    padding: 0.2em;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8em;
+}
+
+.socialMedia1{
+    display: flex;
+    justify-content: center;
+}
+
+
+.footerEnd{
+ display: none;
+}
+
+.footerEndText{
+    display: none;
+    
+}
+
+.footerEndText1{
+    display: flex;
+    justify-content: center;
+    align-items: center !important;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Roboto", sans-serif;
+    font-size: 0.6em;
+    margin: 2em;
+}
+
+.hr{
+    display: none;
+}
+
+}
+
+@media only screen and (min-width: 385px) and (max-width: 395px){
+    .footerMainDiv{
+        width: 100%;
+        height: 70vh;
+        background-color: #212325;
+    }
+
+.footerDiv{
+    display: none;
+}
+
+.footerDiv1{
+    width: 90%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1em;
+    /* background-color: red; */
+}
+
+.quickLinks1{
+    color :#FFFFFF;
+    line-height: 1.5em;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 0.5em;
+}
+
+.links1{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8em;
+    padding: 0.2em;
+}
+
+.logo1{
+    margin-top: 1em;
+}
+
+.contactUs1{
+    color :#FFFFFF;
+    line-height: 1.5em;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.link1{
+    display: flex;
+    padding: 0.2em;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8em;
+}
+
+.socialMedia1{
+    display: flex;
+    justify-content: center;
+}
+
+
+.footerEnd{
+ display: none;
+}
+
+.footerEndText{
+    display: none;
+    
+}
+
+.footerEndText1{
+    display: flex;
+    justify-content: center;
+    align-items: center !important;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Roboto", sans-serif;
+    font-size: 0.6em;
+    margin: 2em;
+}
+
+.hr{
+    display: none;
+}
+}
+
+@media only screen and (min-width: 355px) and (max-width: 365px){
+
+    .footerMainDiv{
+        width: 100%;
+        height: 78vh;
+        background-color: #212325;
+    }
+
+.footerDiv{
+    display: none;
+}
+
+.footerDiv1{
+    width: 90%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1em;
+    /* background-color: red; */
+}
+
+.quickLinks1{
+    color :#FFFFFF;
+    line-height: 1.5em;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 0.5em;
+}
+
+.links1{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8em;
+    padding: 0.2em;
+}
+
+.logo1{
+    margin-top: 3em;
+}
+
+.contactUs1{
+    color :#FFFFFF;
+    line-height: 1.5em;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.link1{
+    display: flex;
+    padding: 0.2em;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8em;
+}
+
+.socialMedia1{
+    display: flex;
+    justify-content: center;
+}
+
+
+.footerEnd{
+ display: none;
+}
+
+.footerEndText{
+    display: none;
+    
+}
+
+.footerEndText1{
+    display: flex;
+    justify-content: center;
+    align-items: center !important;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Roboto", sans-serif;
+    font-size: 0.6em;
+    margin: 2em;
+}
+
+.hr{
+    display: none;
+}
+
+}
+
+@media only screen and (min-width: 275px) and (max-width: 300px){
+
+    .footerMainDiv{
+        width: 100%;
+        height: 80vh;
+        background-color: #212325;
+    }
+
+.footerDiv{
+    display: none;
+}
+
+.footerDiv1{
+    width: 90%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1em;
+    /* background-color: red; */
+}
+
+.quickLinks1{
+    color :#FFFFFF;
+    line-height: 1.5em;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 0.5em;
+}
+
+.links1{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8em;
+    padding: 0.2em;
+}
+
+.logo1{
+    margin-top: 6em;
+}
+
+.contactUs1{
+    color :#FFFFFF;
+    line-height: 1.5em;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.link1{
+    display: flex;
+    padding: 0.2em;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8em;
+}
+
+.socialMedia1{
+    display: flex;
+    justify-content: center;
+}
+
+
+.footerEnd{
+ display: none;
+}
+
+.footerEndText{
+    display: none;
+    
+}
+
+.footerEndText1{
+    display: flex;
+    justify-content: center;
+    align-items: center !important;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Roboto", sans-serif;
+    font-size: 0.6em;
+    margin: 2em;
+}
+
+.hr{
+    display: none;
+}
+
+}
+
+
+
+@media only screen and (min-width: 500px) and (max-width: 550px){
+
+.footerMainDiv{
+        width: 100%;
+        height: 80vh;
+        background-color: #212325;
+    }
+
+.footerDiv{
+    display: none;
+}
+
+.footerDiv1{
+    width: 90%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1em;
+    /* background-color: red; */
+}
+
+.quickLinks1{
+    color :#FFFFFF;
+    line-height: 1.5em;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 0.5em;
+}
+
+.links1{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8em;
+    padding: 0.2em;
+}
+
+.logo1{
+    margin-top: 10em;
+}
+
+.contactUs1{
+    color :#FFFFFF;
+    line-height: 1.5em;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.link1{
+    display: flex;
+    padding: 0.2em;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8em;
+}
+
+.socialMedia1{
+    display: flex;
+    justify-content: center;
+}
+
+
+.footerEnd{
+ display: none;
+}
+
+.footerEndText{
+    display: none;
+    
+}
+
+.footerEndText1{
+    display: flex;
+    justify-content: center;
+    align-items: center !important;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8em;
+}
+
+.hr{
+    display: none;
+}
+
+}
+

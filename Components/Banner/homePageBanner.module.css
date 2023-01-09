@@ -1,0 +1,236 @@
+.banner {
+  background-image: url("../../assets/png/banner1.png");
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+  
+}
+
+.bannerTextContr{
+    display: flex;
+    /* background-color: red; */
+    flex: 1;
+    justify-content: center;
+    width: 80%;
+    margin-top: 2em;
+    padding: 2rem;
+}
+
+.tagsContr{
+    display: flex;
+}
+
+.tagText{
+    font-size: 1em;
+    background-color: aliceblue;
+}
+
+.bannnerMainText{
+    font-family: Roboto;
+font-size: 3.6rem;
+font-weight: 500;
+/* line-height: 2.5rem; */
+letter-spacing: 0em;
+text-align: left;
+margin-bottom: 0.5em;
+}
+
+.bannerTextsmall{
+    font-family: Roboto;
+font-size: 2.5em;
+font-weight: 200;
+/* line-height: 2em; */
+letter-spacing: 0em;
+text-align: left;
+color: #212325;
+margin-bottom: 0.5em;
+}
+
+/* @media only screen and (max-width: 500px) {
+
+    .banner {
+        background-image: url("../../assets/png/banner1.png");
+        height: 60vh;
+        width: 100vw;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .bannerTextContr{
+        margin-top: 1em;
+        width: 100%;
+    }
+
+    .bannnerMainText{
+    font-size: 1.7rem;
+    }
+
+    .bannerTextsmall{
+    font-size: 1.2em;
+    font-weight: 300;
+    }
+
+    .tagsContr{
+        font-size: 0.8em;
+    }
+
+  }
+
+  @media only screen and (max-width: 390px) {
+
+    .banner {
+        background-image: url("../../assets/png/banner1.png");
+        height: 70vh;
+        width: 100vw;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .bannerTextContr{
+        margin-top: 1em;
+        width: 100%;
+    }
+
+    .bannnerMainText{
+    font-size: 1.5rem;
+    }
+
+    .bannerTextsmall{
+    font-size: 1.1em;
+    font-weight: 300;
+    }
+
+    .tagsContr{
+        font-size: 0.7em;
+    }
+
+  }
+
+  @media only screen and (max-width: 600px) {
+    .banner {
+        background-image: url("../../assets/png/banner1.png");
+        height: 65vh;
+        width: 100vw;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .bannerTextContr{
+        margin-top: 1em;
+        width: 80%;
+    }
+
+    .bannnerMainText{
+    font-size: 1.5rem;
+    }
+
+    .bannerTextsmall{
+    font-size: 1.1em;
+    font-weight: 300;
+    }
+
+    .tagsContr{
+        font-size: 0.7em;
+    }
+
+  }
+
+
+  @media only screen and (max-width: 300px) {
+
+  } */
+
+  @media only screen and (min-width: 360px) and (max-width: 768px){
+
+    .banner {
+        background-image: url("../../assets/png/banner1.png");
+        height: 60vh;
+        width: 100vw;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .bannerTextContr{
+        margin-top: 1em;
+        width: 100%;
+    }
+
+    .bannnerMainText{
+    font-size: 1.7rem;
+    }
+
+    .bannerTextsmall{
+    font-size: 1.2em;
+    font-weight: 300;
+    }
+
+    .tagsContr{
+        font-size: 0.7em;
+    }
+
+
+  }
+
+  @media only screen and (min-width: 360px) and (max-width: 400px){
+
+    .banner {
+        background-image: url("../../assets/png/banner1.png");
+        height: 60vh;
+        width: 100vw;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .bannerTextContr{
+        margin-top: 1em;
+        width: 100%;
+    }
+
+    .bannnerMainText{
+    font-size: 1.5rem;
+    }
+
+    .bannerTextsmall{
+    font-size: 1.1em;
+    font-weight: 300;
+    }
+
+    .tagsContr{
+        font-size: 0.7em;
+    }
+
+
+  }
+
+  @media only screen and (min-width: 250px) and (max-width: 350px){
+
+
+    .banner {
+        background-image: url("../../assets/png/banner1.png");
+        height: 50vh;
+        width: 100vw;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .bannerTextContr{
+        margin-top: 0.5em;
+        width: 100%;
+    }
+
+    .bannnerMainText{
+    font-size: 1rem;
+    }
+
+    .bannerTextsmall{
+    font-size: 0.7em;
+    font-weight: 300;
+    }
+
+    .tagsContr{
+        font-size: 0.5em;
+    }
+
+  }

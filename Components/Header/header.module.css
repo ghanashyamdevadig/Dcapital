@@ -1,0 +1,577 @@
+.anchortag {
+  text-decoration: none;
+}
+
+.listItem {
+  list-style: none;
+}
+
+.maindiv {
+  width: 100%;
+  height: 5em;
+  display: grid;
+  grid-template-columns: 5rem 2fr 15fr 1fr 1fr 5rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    background-color: #fff;
+}
+
+.logo{
+    display: grid;
+    grid-column: 2/3;
+    justify-content: start;
+    align-items: center;
+}
+
+.menulink{
+    grid-column: 3/4;
+}
+
+.menulink ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    margin-top: 1.8em;
+}
+
+.loginbox{
+    grid-column: 4/5;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; 
+   display: flex;
+   justify-content: center;
+}
+
+.round{
+    border: 1px solid lightgrey;
+    border-radius: 50%;
+    padding: 0.5em;
+    margin:1.2em ;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+.whish{
+    margin-top: 0.2em;
+}
+
+.loginText{
+    grid-column: 5/6;  
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+}
+
+.menulink :hover > a{
+transform-origin: left;
+color: #6e9500;
+transition: 0.55;
+}
+
+.menulink a{
+    font-family: Roboto;
+font-size: 1rem;
+font-weight: 700;
+line-height: 1.1rem;
+letter-spacing: 0em;
+text-align: left;
+color: #202324;
+}
+
+.hambergerIcon{
+    display: none;
+}
+
+
+
+/* @media only screen and (max-width: 500px) {
+
+    .maindiv {
+       grid-template-columns: 1rem 3fr 3fr 2fr 1rem;
+      }
+      
+    .menulink{
+        display: none;
+    }
+
+    .loginText{
+       display: none;
+    }
+
+    .loginbox{
+        grid-column: 3/4;
+    }
+
+    .logoWidth{
+        width:150px;
+    }
+
+.hamberger{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+    .hambergerIcon{
+        display:flex;
+    }
+
+  }
+
+  @media only screen and (max-width: 390px){
+
+    .maindiv {
+        grid-template-columns: 0.5rem 2fr 1fr 2fr 0.5rem;
+      }
+
+      .logo{
+        display: grid;
+        grid-column: 2/3;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .round{
+        margin:0.5em ;
+    }
+    .menulink{
+        display: none;
+    }
+
+    .loginText{
+       display: none;
+    }
+
+    .loginbox{
+        grid-column: 3/4;
+    }
+
+    .logoWidth{
+        width:150px;
+    }
+
+.hamberger{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+    .hambergerIcon{
+        display:flex;
+    }
+    .jobs{
+        width: 13px;
+    }
+
+    .whishlist{
+        width: 38px;
+    }
+
+    .loginlogo{
+        width: 13px; 
+    }
+
+  }
+
+  @media only screen and (max-width: 414px){
+
+    .maindiv {
+        grid-template-columns: 0.5rem 2fr 2fr 4fr 0.5rem;
+      }
+
+      .logo{
+        display: grid;
+        grid-column: 2/3;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .round{
+        margin:0.1em ;
+    }
+    .menulink{
+        display: none;
+    }
+
+    .loginText{
+       display: none;
+    }
+
+    .loginbox{
+        grid-column: 3/4;
+    }
+
+    .logoWidth{
+        width:150px;
+    }
+
+.hamberger{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+    .hambergerIcon{
+        display:flex;
+    }
+    .jobs{
+        width: 13px;
+        margin: 0;
+    }
+
+    .whishlist{
+        width: 38px;
+        margin: 0;
+    }
+
+    .loginlogo{
+        width: 13px; 
+        margin: 0;
+    }
+
+  }
+
+
+  @media only screen and (max-width: 376px) {
+
+    .maindiv {
+        grid-template-columns:  0.5rem 4fr 0.5fr 1fr 0.5rem;
+      }
+
+      .logo{
+        display: grid;
+        grid-column: 1/3;
+        justify-content: flex-start;
+        align-items: center;
+        margin-left: 0.5rem;
+    }
+
+    .round{
+        margin:0.5em ;
+    }
+    .menulink{
+        display: none;
+    }
+
+    .loginText{
+       display: none;
+    }
+
+    .loginbox{
+        grid-column: 3/4;
+        justify-content: flex-end;
+    }
+
+    .logoWidth{
+        width:130px;
+    }
+
+.hamberger{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    cursor: pointer;
+}
+
+    .hambergerIcon{
+        display:flex;
+    }
+    .jobs{
+        width: 13px;
+    }
+
+    .whishlist{
+        width: 38px;
+    }
+
+    .loginlogo{
+        width: 13px; 
+    }
+
+  }
+
+
+
+  @media only screen and (max-width: 600px){
+
+    .maindiv {
+        grid-template-columns: 2rem 3fr 5fr 2fr 1rem;
+      }
+
+    .round{
+        margin:2em ;
+    }
+
+    .loginbox{
+        grid-column: 3/4;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .menulink{
+        display: none;
+    }
+
+    .loginText{
+       display: none;
+    }
+
+    .hamberger{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    
+        .hambergerIcon{
+            display:flex;
+        }
+
+  }
+
+  @media only screen and (max-width: 300px)  {
+
+    .maindiv {
+        grid-template-columns: 0.5rem 2fr 2fr 2fr 0.5rem;
+      }
+
+    .round{
+        margin:0.3em ;
+        padding: none;
+    }
+
+    .logoWidth{
+        width:110px;
+    }
+
+    .loginbox{
+        grid-column: 3/4;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .jobs{
+        width: 13px;
+    }
+
+    .whishlist{
+        width: 38px;
+    }
+
+    .loginlogo{
+        width: 13px; 
+    }
+  }
+
+  @media only screen and (max-width: 360px)  {
+
+    .maindiv {
+        grid-template-columns: 1.5rem 2fr 2fr 1fr 0.5rem;
+      }
+
+      .logo{
+        display: grid;
+        grid-column: 2/3;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .round{
+        margin:0.5em ;
+    }
+    .menulink{
+        display: none;
+    }
+
+    .loginText{
+       display: none;
+    }
+
+    .loginbox{
+        grid-column: 3/4;
+        justify-content: flex-end;
+    }
+
+    .logoWidth{
+        width:140px;
+    }
+
+.hamberger{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+    .hambergerIcon{
+        display:flex;
+    }
+    .jobs{
+        width: 13px;
+    }
+
+    .whishlist{
+        width: 38px;
+    }
+
+    .loginlogo{
+        width: 13px; 
+    }
+
+  } 
+
+  @media only screen and (max-width: 280px) {
+    .maindiv {
+        grid-template-columns: 0.5rem 2fr 2fr 2fr 0.5rem;
+      }
+      .menulink{
+        display: none;
+    }
+
+    .loginText{
+       display: none;
+    }
+
+    .round{
+        margin:0.3em ;
+        padding: none;
+    }
+
+    .logoWidth{
+        width:110px;
+    }
+
+    .loginbox{
+        grid-column: 3/4;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .jobs{
+        width: 13px;
+    }
+
+    .whishlist{
+        width: 38px;
+    }
+
+    .loginlogo{
+        width: 13px; 
+    }
+
+    .hamberger{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    
+        .hambergerIcon{
+            display:flex;
+        }
+  }
+   */
+
+
+   @media only screen and (min-width: 360px) and (max-width: 768px){
+
+    .maindiv {
+        grid-template-columns: 1rem 3fr 2fr 2fr 1rem;
+      }
+
+    .round{
+        margin:1em ;
+    }
+
+    .loginbox{
+        grid-column: 3/4;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .menulink{
+        display: none;
+    }
+
+    .loginText{
+       display: none;
+    }
+
+    .logoWidth{
+        width:130px;
+    }
+
+    .hamberger{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    
+        .hambergerIcon{
+            display:flex;
+        }
+
+  }
+
+
+  @media only screen and (min-width: 250px) and (max-width: 350px){
+
+    .maindiv {
+        grid-template-columns: 0.5rem 3fr 2fr 2fr 0.5rem;
+      }
+
+    .round{
+        margin:0.3em ;
+    }
+
+    .loginbox{
+        grid-column: 3/4;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .menulink{
+        display: none;
+    }
+
+    .loginText{
+       display: none;
+    }
+
+    .logoWidth{
+        width:110px;
+        height: 50px;
+    }
+
+    .jobs{
+        width: 13px;
+    }
+
+    .whishlist{
+        width: 38px;
+    }
+
+    .loginlogo{
+        width: 13px; 
+    }
+
+    .hamberger{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    
+        .hambergerIcon{
+            display:flex;
+        }
+
+  }

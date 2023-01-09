@@ -1,0 +1,33 @@
+.featured_card {
+  max-width: 451px;
+  height: 256px;
+  border-radius: 6px 6px 0 6px;
+  position: relative;
+}
+.title {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+  color: rgba(9, 9, 9, 0.7);
+  padding-top: 28.5px;
+  padding-left: 33px;
+}
+.property_count{
+    margin-top: 9px;
+    padding-left: 33px;
+}
+.image{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+
+@media only screen and (min-width: 396px) and (max-width: 768px){
+  .featured_card {
+    max-width: 451px;
+    height: 256px;
+    border-radius: 6px 6px 0 6px;
+    position: relative;
+  }
+}
