@@ -48,7 +48,10 @@ color: #212325;
 margin-bottom: 0.5em;
 }
 
-/* @media only screen and (max-width: 500px) {
+
+
+
+  @media only screen and (min-width: 351px) and (max-width: 400px){
 
     .banner {
         background-image: url("../../assets/png/banner1.png");
@@ -60,151 +63,26 @@ margin-bottom: 0.5em;
 
     .bannerTextContr{
         margin-top: 1em;
-        width: 100%;
+        width: 60%;
     }
 
     .bannnerMainText{
-    font-size: 1.7rem;
+    font-size: 1rem;
     }
 
     .bannerTextsmall{
-    font-size: 1.2em;
+    font-size: 0.8em;
     font-weight: 300;
     }
 
     .tagsContr{
-        font-size: 0.8em;
-    }
-
-  }
-
-  @media only screen and (max-width: 390px) {
-
-    .banner {
-        background-image: url("../../assets/png/banner1.png");
-        height: 70vh;
-        width: 100vw;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-
-    .bannerTextContr{
-        margin-top: 1em;
-        width: 100%;
-    }
-
-    .bannnerMainText{
-    font-size: 1.5rem;
-    }
-
-    .bannerTextsmall{
-    font-size: 1.1em;
-    font-weight: 300;
-    }
-
-    .tagsContr{
-        font-size: 0.7em;
-    }
-
-  }
-
-  @media only screen and (max-width: 600px) {
-    .banner {
-        background-image: url("../../assets/png/banner1.png");
-        height: 65vh;
-        width: 100vw;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-
-    .bannerTextContr{
-        margin-top: 1em;
-        width: 80%;
-    }
-
-    .bannnerMainText{
-    font-size: 1.5rem;
-    }
-
-    .bannerTextsmall{
-    font-size: 1.1em;
-    font-weight: 300;
-    }
-
-    .tagsContr{
-        font-size: 0.7em;
-    }
-
-  }
-
-
-  @media only screen and (max-width: 300px) {
-
-  } */
-
-  @media only screen and (min-width: 360px) and (max-width: 768px){
-
-    .banner {
-        background-image: url("../../assets/png/banner1.png");
-        height: 60vh;
-        width: 100vw;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-
-    .bannerTextContr{
-        margin-top: 1em;
-        width: 100%;
-    }
-
-    .bannnerMainText{
-    font-size: 1.7rem;
-    }
-
-    .bannerTextsmall{
-    font-size: 1.2em;
-    font-weight: 300;
-    }
-
-    .tagsContr{
-        font-size: 0.7em;
+        font-size: 0.5em;
     }
 
 
   }
 
-  @media only screen and (min-width: 360px) and (max-width: 400px){
-
-    .banner {
-        background-image: url("../../assets/png/banner1.png");
-        height: 60vh;
-        width: 100vw;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-
-    .bannerTextContr{
-        margin-top: 1em;
-        width: 100%;
-    }
-
-    .bannnerMainText{
-    font-size: 1.5rem;
-    }
-
-    .bannerTextsmall{
-    font-size: 1.1em;
-    font-weight: 300;
-    }
-
-    .tagsContr{
-        font-size: 0.7em;
-    }
-
-
-  }
-
-  @media only screen and (min-width: 250px) and (max-width: 350px){
+  @media only screen and (min-width: 250px) and (max-width: 310px){
 
 
     .banner {
@@ -217,11 +95,42 @@ margin-bottom: 0.5em;
 
     .bannerTextContr{
         margin-top: 0.5em;
-        width: 100%;
+        width: 60%;
     }
 
     .bannnerMainText{
-    font-size: 1rem;
+    font-size: 0.8rem;
+    }
+
+    .bannerTextsmall{
+    font-size: 0.6em;
+    font-weight: 300;
+    }
+
+    .tagsContr{
+        font-size: 0.4em;
+    }
+
+  }
+
+  @media only screen and (min-width: 311px) and (max-width: 350px){
+
+
+    .banner {
+        background-image: url("../../assets/png/banner1.png");
+        height: 50vh;
+        width: 100vw;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .bannerTextContr{
+        margin-top: 0.5em;
+        width: 60%;
+    }
+
+    .bannnerMainText{
+    font-size: 0.9rem;
     }
 
     .bannerTextsmall{
@@ -232,5 +141,33 @@ margin-bottom: 0.5em;
     .tagsContr{
         font-size: 0.5em;
     }
+
+  }
+
+
+  @media only screen and (min-width: 400px) and (max-width: 800px){
+
+    .banner {
+        height: 70vh;
+    }
+
+    .bannerTextContr{
+        margin-top: 1em;
+        width: 90%;
+    }
+
+    .bannnerMainText{
+    font-size: 1.7rem;
+    }
+
+    .bannerTextsmall{
+    font-size: 1.2em;
+    font-weight: 300;
+    }
+
+    .tagsContr{
+        font-size: 0.7em;
+    }
+
 
   }

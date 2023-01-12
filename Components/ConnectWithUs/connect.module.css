@@ -81,6 +81,7 @@
   background: #212325;
   border: 0.817073px solid #212325;
   border-radius: 4px;
+  text-decoration: none;
 }
 
 .fields {
@@ -138,14 +139,14 @@
 }
 
 .image1 {
-  width: 600px;
+  width: 575px;
   position: absolute;
   left: 0;
   bottom: 0;
 }
 
 .image2 {
-  width: 725px;
+  width: 700px;
   position: absolute;
   left: 0;
   bottom: 0;
@@ -160,7 +161,7 @@
 
   .staticContent {
     width: 100%;
-    height: 90vh;
+    min-height: 60vh;
     position: 0;
     margin-right: 10em;
     border-radius: 0.5em;
@@ -176,7 +177,7 @@
 
   .DynamicContent {
     width: 100%;
-    height: 90vh;
+    min-height: 60vh;
   }
 
   .image1 {
@@ -220,23 +221,23 @@
 
   .staticContent {
     width: 100%;
-    height: 90vh;
+    min-height: 60vh;
     position: 0;
     margin-right: 10em;
     border-radius: 0.5em;
   }
 
   .icons {
-    width: 15px;
+    width: 13px;
   }
 
   .text {
-    font-size: 0.7em;
+    font-size: 0.6em;
   }
 
   .DynamicContent {
     width: 100%;
-    height: 90vh;
+    min-height: 60vh;
   }
 
   .image1 {
@@ -280,7 +281,7 @@
 
   .staticContent {
     width: 100%;
-    height: 90vh;
+    min-height: 60vh;
     position: 0;
     margin-right: 10em;
     border-radius: 0.5em;
@@ -296,7 +297,7 @@
 
   .DynamicContent {
     width: 100%;
-    height: 90vh;
+    min-height: 60vh;
   }
 
   .image1 {
@@ -340,7 +341,7 @@
 
   .staticContent {
     width: 100%;
-    height: 90vh;
+    min-height: 60vh;
     position: 0;
     margin-right: 10em;
     border-radius: 0.5em;
@@ -356,7 +357,7 @@
 
   .DynamicContent {
     width: 100%;
-    height: 90vh;
+    min-height: 60vh;
   }
 
   .image1 {
@@ -400,7 +401,7 @@
 
   .staticContent {
     width: 100%;
-    height: 90vh;
+    min-height: 60vh;
     position: 0;
     margin-right: 10em;
     border-radius: 0.5em;
@@ -416,7 +417,7 @@
 
   .DynamicContent {
     width: 100%;
-    height: 90vh;
+    min-height: 60vh;
   }
 
   .image1 {
@@ -460,7 +461,7 @@
 
   .staticContent {
     width: 100%;
-    height: 90vh;
+    min-height: 60vh;
     position: 0;
     margin-right: 10em;
     border-radius: 0.5em;
@@ -476,7 +477,7 @@
 
   .DynamicContent {
     width: 100%;
-    height: 90vh;
+    min-height: 60vh;
   }
 
   .image1 {
@@ -520,7 +521,7 @@
 
   .staticContent {
     width: 100%;
-    height: 100vh;
+    min-height: 60vh;
     position: 0;
     margin-right: 10em;
     border-radius: 0.5em;
@@ -536,7 +537,7 @@
 
   .DynamicContent {
     width: 100%;
-    height: 90vh;
+    min-height: 60vh;
   }
 
   .image1 {
@@ -580,7 +581,7 @@
 
   .staticContent {
     width: 100%;
-    height: 100vh;
+    min-height: 60vh;
     position: 0;
     margin-right: 10em;
     border-radius: 0.5em;
@@ -596,7 +597,7 @@
 
   .DynamicContent {
     width: 100%;
-    height: 90vh;
+    min-height: 60vh;
   }
 
   .icons {
@@ -644,7 +645,7 @@
 
   .staticContent {
     width: 100%;
-    height: 90vh;
+    min-height: 60vh;
     position: 0;
     margin-right: 10em;
     border-radius: 0.5em;
@@ -652,11 +653,15 @@
 
   .DynamicContent {
     width: 100%;
-    min-height: 90vh;
+    min-height: 60vh;
   }
 
   .icons {
-    width: 20px;
+    width: 18px;
+  }
+
+  .text {
+    font-size: 0.9em;
   }
 
   .image1 {
@@ -700,7 +705,7 @@
 
   .staticContent {
     width: 100%;
-    height: 90vh;
+    min-height: 60vh;
     position: 0;
     margin-right: 10em;
     border-radius: 0.5em;
@@ -708,7 +713,7 @@
 
   .DynamicContent {
     width: 100%;
-    height: 90vh;
+    min-height: 60vh;
   }
 
   .image1 {
@@ -751,7 +756,7 @@
 
   .staticContent {
     width: 100%;
-    height: 90vh;
+    min-height: 60vh;
     position: 0;
     margin-right: 10em;
     border-radius: 0.5em;
@@ -759,7 +764,7 @@
 
   .DynamicContent {
     width: 100%;
-    height: 90vh;
+    min-height: 60vh;
   }
 
   .image1 {

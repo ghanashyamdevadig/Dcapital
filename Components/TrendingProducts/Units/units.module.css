@@ -1,0 +1,55 @@
+.productDetails{
+    width: 100%;
+}
+
+.units{
+    width: 100%;
+    min-height: 5vh;
+    background-color: #fff;
+    margin-bottom: 2em;
+    border-radius: 0.5em;
+    padding: 1em 0 1em 1em;
+  }
+
+  .featured_card {
+    max-width:20em;
+    height: 10em;
+    border-radius: 6px 6px 0 6px;
+   display: flex;
+   margin: 1em 0 -5em 0;
+  }
+
+
+  .title {
+    font-weight: 600;
+    font-size: 0.9em;
+    /* line-height: 26px; */
+    color: #A0A0A0;
+    margin: 0;
+  }
+
+  .subTitle{
+    font-weight: 400;
+    font-size: 0.9em;
+  }
+
+  .featured_collection{
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    margin: auto;
+}
+
+.card_container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 22rem);
+}
+
+.titleSubTitle{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.details{
+    margin: 0.5em;
+}

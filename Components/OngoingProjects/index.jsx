@@ -5,7 +5,10 @@ import Carousel from "react-elastic-carousel";
 import SectionHeading from './../SectionHeading/index';
 
 
+
 export default function OngoingProjects({ width, background }) {
+
+ 
   const initialState = [
     {
       image: "/images/OngoingProject/image1.png",
@@ -58,6 +61,7 @@ export default function OngoingProjects({ width, background }) {
   ];
   const [ongoingProjectsData, setOngoingProjectsData] =
     React.useState(initialState);
+
 
   return (
     <div style={{ background: background || "#E1E1E1" }}>
@@ -128,7 +132,7 @@ export function ProjectCard({ image, title, location, price }) {
           <div className={projectCard.horizontal_devider}> - </div>
           <div className={projectCard.price_to}>{price ? price.to : 0}</div>
         </div>
-        <a href="/" className={projectCard.contact_btn}>
+        <a href="/trendingProducts" className={projectCard.contact_btn} >
           Contact
         </a>
       </div>
